@@ -1,26 +1,882 @@
+
 {
-	"id": "0001",
-	"type": "donut",
-	"name": "Cake",
-	"ppu": 0.55,
-	"batters":
-		{
-			"batter":
-				[
-					{ "id": "1001", "type": "Regular" },
-					{ "id": "1002", "type": "Chocolate" },
-					{ "id": "1003", "type": "Blueberry" },
-					{ "id": "1004", "type": "Devil's Food" }
-				]
-		},
-	"topping":
-		[
-			{ "id": "5001", "type": "None" },
-			{ "id": "5002", "type": "Glazed" },
-			{ "id": "5005", "type": "Sugar" },
-			{ "id": "5007", "type": "Powdered Sugar" },
-			{ "id": "5006", "type": "Chocolate with Sprinkles" },
-			{ "id": "5003", "type": "Chocolate" },
-			{ "id": "5004", "type": "Maple" }
-		]
+    "sticker_sub_categories": [
+        {
+          "category_id": 1,
+          "identifier": "ant_man",
+          "subcategory_poster_image": "ant_man_poster.png",
+          "name": "ANT-MAN",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "ant_man_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "",
+          "stickers": [
+            {
+              "image_file": "ant_man_1.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "ant_man_2.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+                "image_file": "ant_man_3.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+                "image_file": "ant_man_4.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+                "image_file": "ant_man_5.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+                "image_file": "ant_man_6.webp",
+              "emojis": [
+                  "😍"
+              ]
+            }
+          ]
+        },
+        {
+          "category_id": 1,
+          "identifier": "avengers",
+          "subcategory_poster_image": "avengers_poster.png",
+          "name": "AVENGERS",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "avengers_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "",
+          "stickers": [
+            {
+              "image_file": "avengers_1.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_2.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_3.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_4.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_5.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_6.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_7.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_8.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },{
+              "image_file": "avengers_9.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },{
+              "image_file": "avengers_10.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },{
+              "image_file": "avengers_11.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_12.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_13.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_14.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_15.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_16.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_17.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_18.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_19.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_20.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "avengers_21.webp",
+              "emojis": [
+                  "😍"
+              ]
+            }
+          ]
+        },
+        {
+          "category_id": 1,
+          "identifier": "captain_america",
+          "subcategory_poster_image": "captain_america_poster.png",
+          "name": "CAPTAIN AMERICA",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "captain_america_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "",
+          "stickers": [
+            {
+              "image_file": "captain_america_1.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_2.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_3.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_4.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_5.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_6.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_7.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_8.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_9.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_10.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_11.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_12.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_13.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_14.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_15.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_16.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_17.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_18.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_19.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_20.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_21.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_22.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_23.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_24.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_25.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_26.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },{
+              "image_file": "captain_america_27.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_28.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },{
+              "image_file": "captain_america_29.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "captain_america_30.webp",
+              "emojis": [
+                  "😍"
+              ]
+            }
+          ]
+        },
+        {
+          "category_id": 1,
+          "identifier": "hulk",
+          "subcategory_poster_image": "hulk_poster.png",
+          "name": "HULK",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "hulk_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "",
+          "stickers": [
+            {
+              "image_file": "hulk_1.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "hulk_2.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "hulk_3.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "hulk_4.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "hulk_5.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "hulk_6.webp",
+              "emojis": [
+                  "😍"
+              ]
+            }, {
+                     "image_file": "hulk_7.webp",
+                     "emojis": [
+                         "😍"
+                     ]
+                   },
+                   {
+                     "image_file": "hulk_8.webp",
+                     "emojis": [
+                         "😍"
+                     ]
+                   },
+                   {
+                     "image_file": "hulk_9.webp",
+                     "emojis": [
+                         "😍"
+                     ]
+                   },
+                   {
+                     "image_file": "hulk_10.webp",
+                     "emojis": [
+                         "😍"
+                     ]
+                   },
+                   {
+                     "image_file": "hulk_11.webp",
+                     "emojis": [
+                         "😍"
+                     ]
+                   },
+                   {
+                     "image_file": "hulk_12.webp",
+                     "emojis": [
+                         "😍"
+                     ]
+                   }
+          ]
+        },
+        {
+          "category_id": 1,
+          "identifier": "iron_man",
+          "subcategory_poster_image": "iron_man_poster.png",
+          "name": "IRON MAN",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "iron_man_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "",
+          "stickers": [
+            {
+              "image_file": "iron_man_1.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_2.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_3.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_4.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_5.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_26.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_27.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_28.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_29.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_30.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_10.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_11.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_12.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_13.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_14.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_15.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_16.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_17.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_18.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_19.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_20.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_21.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_22.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_23.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_24.webp",
+              "emojis": [
+                  "😍"
+              ]
+            },
+            {
+              "image_file": "iron_man_25.webp",
+              "emojis": [
+                  "😍"
+              ]
+            }
+          ]
+        },
+        {
+          "category_id": 1,
+          "identifier": "thnos",
+          "subcategory_poster_image": "thanos_poster.png",
+          "name": "THNOS",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "thanos_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "NA",
+          "stickers": [
+            {
+              "image_file": "thanos_1.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_2.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_3.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_4.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_5.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_6.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_7.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_8.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_9.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_10.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_11.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_12.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_13.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_14.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_15.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_16.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_17.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_18.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_19.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_20.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_21.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_22.webp",
+              "emojis": [
+                "🙂"
+              ]
+            },
+            {
+              "image_file": "thanos_23.webp",
+              "emojis": [
+                "🙂"
+              ]
+            }
+            
+        ]
+        },
+        {
+          "category_id": 1,
+          "identifier": "www_superstars",
+          "subcategory_poster_image": "www_superstars_poster.png",
+          "name": "WWW Superstars",
+          "publisher": "Digital Auxilio",
+          "tray_image_file": "www_superstars_tray.png",
+          "image_data_version": "1",
+          "avoid_cache": false,
+          "publisher_email": "apps.support@digiauxilio.com",
+          "publisher_website": "https://www.digiauxilio.com/",
+          "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
+          "license_agreement_website": "NA",
+          "stickers": [
+            {
+              "image_file": "www_superstars_1.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_2.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_3.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_4.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_5.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_6.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_7.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_8.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_9.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_10.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_11.webp",
+              "emojis": [
+              ]
+            },
+            {
+              "image_file": "www_superstars_12.webp",
+              "emojis": [
+              ]
+            }
+           
+          ]
+        }
+    ]
 }
+
