@@ -1,5 +1,5 @@
-
-[
+{
+"product_list": [
         {
           "category_id": 1,
           "identifier": "ant_man",
@@ -53,4 +53,4 @@
           "license_agreement_website": ""
          }
 ]
-
+}
