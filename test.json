@@ -1,5 +1,5 @@
 
-{
+[
         {
           "category_id": 1,
           "identifier": "ant_man",
@@ -52,5 +52,5 @@
           "privacy_policy_website": "https://www.digiauxilio.com/privacy_policy.shtml",
           "license_agreement_website": ""
          }
-}
+]
 
